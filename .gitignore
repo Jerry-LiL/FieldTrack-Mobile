@@ -1,0 +1,22 @@
+node_modules/
+.expo/
+dist/
+build/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# macOS
+.DS_Store
+
+# Environment files
+.env
+.env.local
+
+# TypeScript build output
+server/dist/
+coverage/
