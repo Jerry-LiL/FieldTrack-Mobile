@@ -8,7 +8,7 @@ on:
 
 jobs:
   mobile:
-    name: Mobile App (Lint, Typecheck, Test)
+    name: app
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -33,7 +33,7 @@ jobs:
         run: npm test
 
   server:
-    name: Mock Server (Typecheck, Test)
+    name: server
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
